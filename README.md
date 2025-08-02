@@ -33,16 +33,16 @@ This library compiles into a static library `libftprintf.a`, which can be reused
 ## 📁 Project Structure
 ```
 ft_printf/
-├── ft_printf.c # Main printf logic and format parser
-├── ft_printf.h # Header file with declarations and macros
-├── ft_putchar_pf.c # Writes a single character
-├── ft_putstr_pf.c # Writes a string
-├── ft_putnbr_pf.c # Converts and prints signed integers
-├── ft_putuint_pf.c # Converts and prints unsigned integers
-├── ft_puthex_pf.c # Converts and prints hex numbers
-├── ft_putptr_pf.c # Converts and prints pointers (with "0x" prefix)
-├── Makefile # Build rules for compiling the static library
-└── libft/ # My custom implementation of C standard library functions
+├── ft_printf.c          # Main printf logic and format parser
+├── ft_printf.h          # Header file with declarations and macros
+├── ft_putchar_pf.c      # Writes a single character
+├── ft_putstr_pf.c       # Writes a string
+├── ft_putnbr_pf.c       # Converts and prints signed integers
+├── ft_putuint_pf.c      # Converts and prints unsigned integers
+├── ft_puthex_pf.c       # Converts and prints hex numbers
+├── ft_putptr_pf.c       # Converts and prints pointers (with "0x" prefix)
+├── Makefile             # Build rules for compiling the static library
+└── libft/               # My custom implementation of C standard library functions
 ```
 
 ---
