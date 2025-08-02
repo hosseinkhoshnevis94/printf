@@ -31,6 +31,7 @@ This library compiles into a static library `libftprintf.a`, which can be reused
 ---
 
 ## 📁 Project Structure
+```
 ft_printf/
 ├── ft_printf.c # Main printf logic and format parser
 ├── ft_printf.h # Header file with declarations and macros
@@ -42,6 +43,7 @@ ft_printf/
 ├── ft_putptr_pf.c # Converts and prints pointers (with "0x" prefix)
 ├── Makefile # Build rules for compiling the static library
 └── libft/ # My custom implementation of C standard library functions
+```
 
 ---
 
